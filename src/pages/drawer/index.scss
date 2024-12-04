@@ -1,0 +1,28 @@
+.drawer {
+  display: flex;
+  // justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  button {
+    background-color: rgba(255, 192, 203, 0.26);
+  }
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 0px;
+    background-color: pink;
+    transition-duration: 300ms;
+  }
+  .sidebar_active {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: pink;
+    transition-duration: 300ms;
+  }
+}
