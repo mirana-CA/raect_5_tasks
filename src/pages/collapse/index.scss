@@ -1,0 +1,30 @@
+.collapse_elem {
+  width: 800px;
+  padding: 10px;
+  margin: 50px auto;
+  .collapse_heading {
+    background-color: rgba(255, 192, 203, 0.26);
+    border: 1px solid red;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .collapse_text {
+    p {
+      background-color: rgba(255, 192, 203, 0.13);
+      border: 1px solid red;
+      padding: 10px;
+    }
+
+    height: auto;
+    transition-duration: 300ms;
+  }
+  .text_unvisible {
+    height: 0;
+    p {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+}
